@@ -1,0 +1,226 @@
+body, html {
+  background: #F0F0F0;
+  margin: 0;
+  padding: 0;
+  font-family: 'Lobster', cursive;
+}
+
+/*NAVIGATION BAR*/
+.navbar {
+  top: 0;
+  z-index: 1;
+  position: relative;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  background-color: #9ef442;
+  height: 50px;
+}
+.navbar a {
+  color: #010;
+  text-decoration: none;
+  transition: all 500ms ease-out 1;
+}
+
+.navbar a:hover {
+  color: #666;
+  text-decoration: none;
+  font-size: 1.125em;
+}
+
+.nav-brand {
+  width: 20%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.nav-list {
+  width: 40%;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  list-style: none;
+}
+
+.nav-item {
+  padding: 20px;
+}
+/*NAVIGATION BAR END*/
+
+
+/*HERO BANNER*/
+.hero-banner {
+  background: url('../images/hero-image.jpg') no-repeat center;
+  background-size: cover;
+  display: table;
+  width: 100%;
+  height: 95vh;
+}
+
+.hero-message {
+  position: relative;
+  font-size: 3em;
+  margin: auto;
+  height: 100%
+}
+
+.hero-message p {
+  color: #E8E8E8;
+}
+/*HERO BANNER END*/
+
+
+/*VIDEO SECTION*/
+.video-sample-container {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+
+.video-primary {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2em;
+}
+/*VIDEO SECTION END*/
+
+
+/*BANNER SECTION*/
+.banner {
+  background: url('../images/banner-image.jpg') center no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 300px;
+}
+
+.banner-message {
+  z-index: 100;
+  position: relative;
+  font-size: 5em;
+  margin: auto;
+  height: 100%
+}
+
+.banner-message p {
+  color: #010;
+}
+/*BANNER SECTION END*/
+
+/*FREE TRIAL*/
+.free-trial {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #9ef442;
+}
+
+.form-email {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 1em 0;
+}
+
+.form-creditcard {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin: 1em 0;
+}
+
+.form-creditcardinfo {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 1em 0;
+}
+
+.expiration-date, .cvv{
+  display: flex;
+  flex-direction: row;
+  margin: 0 10px;
+}
+
+.form-email input {
+  width: 680px;
+  height: 30px;
+}
+
+.form-creditcard input {
+  width: 680px;
+  height: 30px;
+}
+
+.expiration-date input {
+  position: relative;
+  width: 50px;
+  height: 20px;
+}
+
+.cvv input {
+  position: relative;
+  width: 50px;
+  height: 20px;
+}
+
+.button-submit {
+  color: #010;
+  border: 1px solid #010;
+  border-radius: 25px;
+  text-decoration: none;
+  width: 100px;
+  height: 50px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: all 500ms ease-out 1;
+}
+
+.button-submit:hover {
+  z-index: 100;
+  color: #F0F0F0;
+  background-color: #010;
+  text-decoration: none;
+  font-size: 1.5em;
+}
+/*FREE TRIAL END*/
+
+/*FOOTER*/
+footer {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  color: #010;
+}
+
+
+/*HELPERS*/
+.text-center {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
